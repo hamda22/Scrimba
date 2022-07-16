@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+  width: auto;
+  height: auto;
+}
+.btns {
+  margin-top: 50px;
+  flex-direction: row;
+  gap: 50px;
+  padding: 15px;
+  border: none;
+}
+.btn {
+  padding: 5px;
+}
+.search {
+  background: url(https://www.bing.com/th?id=OIP.8WvTWaXx1Htd-CV758OFYQHaHa&w=150&h=150&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2)
+    no-repeat right;
+  background-size: 40px;
+  margin-top: 30px;
+  width: 55%;
+  padding: 20px;
+  border-radius: 30px;
+  border-color: rgba(35, 37, 36, 0.151);
+}
